@@ -65,13 +65,13 @@ export default function ExpenseForm() {
         // vid 210 , validar, Object.values lo transforma a objeto 
         if (Object.values(expense).includes('')) {
             //Vid 209
-            setError('Todos los campos son obligatorios')
+            setError('All fields are required')
             return
         }
 
         //Vid 223, Validar que no me pase del limite
         if ((expense.amount - previousAmount) > remainingBudget) {
-            setError('Ese gasto se sale del presupuesto')
+            setError('That expense is out of budget')
             return
         }
 
