@@ -113,7 +113,7 @@ export default function ExpenseForm() {
                 <input
                     type="text"
                     id="expenseName"
-                    placeholder="Añade el Nombre del gasto"
+                    placeholder="Add the name of the expense"
                     className="bg-slate-100 p-2"
                     name="expenseName"
                     //Vid 208
@@ -131,7 +131,7 @@ export default function ExpenseForm() {
                 <input
                     type="number"
                     id="amount"
-                    placeholder="Añade la cantaidad del gasto: ej. 300"
+                    placeholder="Add the quantity: ej. 300"
                     className="bg-slate-100 p-2"
                     name="amount"
                     //
@@ -186,7 +186,8 @@ export default function ExpenseForm() {
 
             <input
                 type="submit"
-                className="bg-blue-600 cursor-pointer w-full p-2 text-white uppercase font-bold rounded-lg"
+                className="bg-turquesa cursor-pointer w-full p-2 text-white uppercase font-bold rounded-lg"
+                //className="bg-blue-600 cursor-pointer w-full p-2 text-white uppercase font-bold rounded-lg"
                 //Vid 220 
                 value={state.editingId ? 'Save Changes' : 'Record Expense'}
             />

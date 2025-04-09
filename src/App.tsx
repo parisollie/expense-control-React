@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <header className="bg-blue-600 py-8 max-h-72">
+      <header className="bg-turquesa py-8 max-h-72">
         <h1 className="uppercase text-center font-black text-4xl text-white">
           Expense Planner
         </h1>
