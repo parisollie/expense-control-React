@@ -100,7 +100,7 @@ export default function ExpenseForm() {
             <legend
                 className="uppercase text-center text-2xl font-black border-b-4 border-blue-500 py-2"
             //Vid 220 y sino mostramos Nuevo Gasto 
-            >{state.editingId ? 'Save Changes' : 'New Expense'}</legend>
+            >{state.editingId ? 'Updating' : 'New Expense'}</legend>
 
             {error && <ErrorMessage>{error}</ErrorMessage>}
 
